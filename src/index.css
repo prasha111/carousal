@@ -1,0 +1,25 @@
+.image-div {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  overflow: scroll;
+}
+
+.images {
+  height: 200px;
+}
+.selected {
+  display: flex;
+  border: 1px solid black;
+}
+.carousal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: yellow;
+  height: 100px;
+  width: 20px;
+}
